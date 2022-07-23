@@ -1,0 +1,43 @@
+.booksView {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.booksView h1 {
+  font-weight: bold;
+  color: white;
+}
+.booksTable > table {
+  margin: 3rem;
+  border-collapse: collapse;
+}
+
+.booksTable > td,
+th,
+tr,
+td {
+  border: 2px solid rgb(58, 50, 50);
+  padding: 1.5rem;
+  color: white;
+}
+.tableBtn>button{
+  padding:8px;
+  font-size: 15px;
+  margin-right: 5px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+
+  
+}
+.edit-link>button{
+  list-style: none;
+  padding:8px;
+  font-size: 15px;
+  margin-right: 5px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+}

@@ -1,0 +1,38 @@
+.addBook-container{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.addBook-container h1{
+  font-weight: bold;
+  color: white;
+  margin-top: 50px;
+}
+.form-field{
+  margin-top: 10px;
+  padding: 5px;
+}
+.form-field>label{
+  color: white;
+  margin-right: 5px;
+}
+.form-field>input{
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.formBtn{
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(255, 254, 254);
+  background-color: crimson;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}

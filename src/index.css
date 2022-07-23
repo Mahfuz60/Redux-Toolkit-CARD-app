@@ -1,6 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 body {
   margin: 0;
@@ -8,6 +11,7 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(201, 106, 106);
 }
 
 code {
